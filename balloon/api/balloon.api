@@ -33,6 +33,7 @@ public final class com/skydoves/balloon/Balloon : androidx/lifecycle/DefaultLife
 	public final fun getMeasuredHeight ()I
 	public final fun getMeasuredWidth ()I
 	public final fun getOverlayWindow ()Landroid/widget/PopupWindow;
+	public final fun invalidateOverlay ()V
 	public final fun isShowing ()Z
 	public fun onDestroy (Landroidx/lifecycle/LifecycleOwner;)V
 	public fun onPause (Landroidx/lifecycle/LifecycleOwner;)V
