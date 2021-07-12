@@ -1262,6 +1262,11 @@ class Balloon(
     return binding.balloonArrow
   }
 
+  /** Invalidate overlay. */
+  fun invalidateOverlay() {
+    overlayBinding.balloonOverlayView.forceInvalidate()
+  }
+
   /** dismiss when the [LifecycleOwner] be on paused. */
   @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
   fun onPause() {
